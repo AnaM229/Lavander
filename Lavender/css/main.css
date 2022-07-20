@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+body{
+    color: white;
+    text-align: center;
+    background-color: #AA99F7;
+    font-family: 'Ibarra Real Nova', serif;
+}
+.hero{
+    background: url(../images/lav2.jpg);
+    padding: 0em 3em 3em 3em;
+    margin-left: -2em;
+    margin-right: -2em;
+    margin-top: -2em;
+}
+.welcome{
+    text-shadow: 2px 2px #989494;
+    font-size: 5rem;
+    padding:0;
+}
+.welcome span{
+    display:block;
+    font-size: small;
+    padding: .2em;
+    margin-bottom: 2em;
+}
+.hero p{
+    font-weight: bold;
+    margin: 0 1em 5em 1em;
+}
+.form-container{
+    text-align: center;
+    background-color: white;
+    margin: 0em -1em 0em;
+    padding: 1em;
+}
+label{
+    text-shadow: 1px 1px #989494;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1em;
+    color: #7266A6;
+}
+input[type=text]{
+    border: 1px solid;
+    width:80%;
+    margin-bottom: 2em;
+    padding:.8em;
+    border-radius: 3em;
+    box-sizing:border-box;
+}
+input[type=button]{
+    text-shadow: 1px 1px #989494;
+    background-color: #88D8A2;
+    border:0;
+    padding: 1em 3em 1em 3em;
+    font-size: .9rem;
+    color:white;
+    font-weight: bold;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 3em;
+    cursor:pointer;
+}
+input[type=button]:hover{
+    background-color: #7266A6;
+    font-size: 1rem;
+}
+img{
+    width:70%;
+    padding: 1em;
+    background-color: white;
+    margin: 2em;
+}
+h2{
+    font-weight: bolld;
+    text-shadow: 2px 2px #989494;
+    margin-bottom: 0;
+}
+p{
+    line-height: 2em;
+}
+ul {
+    display: table;
+    margin: 0 auto;
+    padding: 2em;
+    }
+.contact{
+    border-style:solid;
+    border-width: medium;
+}  
+@media(min-width:730px){
+    section{
+        margin: 0 7em;
+    }
+   
+    .form-container{
+        margin: 2em 0 0;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.664);
+    }
+    .details{
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+    }
+    .details p{
+        margin-top: 2em;
+        margin-left: 3em;
+    }
+    img{
+        margin: auto;
+        display: block;
+    }
+    .contact{
+        margin: 2em 10em;
+    }
+}  
+@media(min-width:930px){
+    section{
+        margin: 0 20em;
+    }
+
+}  
+footer{
+    background-color: white;
+    text-align: right;
+    font-family: 'Edu TAS Beginner', cursive;
+    color:#7266A6;
+    margin: 2em;
+    padding: .2em;
+}
